@@ -1,0 +1,12 @@
+git_url("git@github.com:DiologIR/diolog-certificates.git")
+storage_mode("git")
+username("lrhodes@diolog.com.au")
+
+app_identifier([
+  "com.diolog.app",
+  "stage.diolog.app",
+  "dev.diolog.app",
+  "uat.diolog.app"
+])
+
+type("development")
